@@ -1,7 +1,14 @@
 #!/bin/bash
 
+#
 # SYNOPSIS:
+# Prep Linux for a Proxmox template
+#
+# DESCRIPTION:
 # This script will take a Linux VM and prep it to be used as a template in Proxmox.
+# 
+# Uses apt package manager
+#
 
 # Updates
 echo "Running updates..."
